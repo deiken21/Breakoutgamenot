@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    overflow: hidden;
+    background-image:url("tech.gif");
+    z-index: -1;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.paddle{
+    /* background-image: url(0.png); */
+     position: absolute;
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+
+.ball{
+    /* background-image:url(1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.score{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+#restart{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
